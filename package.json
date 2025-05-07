@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --no-color 2>output.txt",
-    "start": "webpack-dev-server --mode development --watch --open --hot",
+    "start": "webpack-dev-server --mode development --watch --hot",
     "build": "webpack --mode production"
   },
   "keywords": [],
